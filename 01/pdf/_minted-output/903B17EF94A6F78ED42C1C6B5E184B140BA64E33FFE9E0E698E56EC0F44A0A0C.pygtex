@@ -1,0 +1,16 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kd}{class} \PYG{n+nc}{Employee}\PYG{p}{\PYGZob{}}
+    \PYG{k+kt}{float} \PYG{n}{salary}\PYG{o}{=}\PYG{l+m+mi}{4000}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{k+kd}{public} \PYG{k+kd}{class} \PYG{n+nc}{Bank} \PYG{k+kd}{extends} \PYG{n}{Employee}\PYG{p}{\PYGZob{}}
+    \PYG{k+kt}{int} \PYG{n}{increment} \PYG{o}{=}\PYG{l+m+mi}{100000}\PYG{p}{;}
+    \PYG{k+kt}{float} \PYG{n}{updatedSalary}\PYG{o}{=}\PYG{n}{salary}\PYG{o}{+}\PYG{n}{increment}\PYG{p}{;}
+    \PYG{k+kd}{public} \PYG{k+kd}{static} \PYG{k+kt}{void} \PYG{n+nf}{main}\PYG{p}{(}\PYG{n}{String} \PYG{n}{args}\PYG{o}{[]}\PYG{p}{)\PYGZob{}}
+        \PYG{n}{Bank} \PYG{n}{p}\PYG{o}{=}\PYG{k}{new} \PYG{n}{Bank}\PYG{p}{();}
+        \PYG{n}{System}\PYG{p}{.}\PYG{n+na}{out}\PYG{p}{.}\PYG{n+na}{println}\PYG{p}{(}\PYG{n}{p}\PYG{p}{.}\PYG{n+na}{salary}\PYG{p}{);}
+        \PYG{n}{System}\PYG{p}{.}\PYG{n+na}{out}\PYG{p}{.}\PYG{n+na}{println}\PYG{p}{(}\PYG{n}{p}\PYG{p}{.}\PYG{n+na}{increment}\PYG{p}{);}
+        \PYG{n}{System}\PYG{p}{.}\PYG{n+na}{out}\PYG{p}{.}\PYG{n+na}{println}\PYG{p}{(}\PYG{n}{p}\PYG{p}{.}\PYG{n+na}{updatedSalary}\PYG{p}{);}
+    \PYG{p}{\PYGZcb{}}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}
