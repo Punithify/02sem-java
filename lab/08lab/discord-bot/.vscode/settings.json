@@ -1,0 +1,11 @@
+{
+  "java.project.sourcePaths": ["src"],
+  "java.project.outputPath": "bin",
+  "java.project.referencedLibraries": {
+    "include": [
+      "lib/**/*.jar",
+      "/home/punith/Downloads/mariadb-java-client-3.3.2.jar"
+    ],
+    "exclude": ["lib/mariadb-java-client-3.3.2.jar"]
+  }
+}

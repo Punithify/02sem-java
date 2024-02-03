@@ -1,3 +1,6 @@
+
+import java.lang.Thread;
+
 class Builder implements Runnable {
     public String botName;
     protected String discordToken;
@@ -30,6 +33,7 @@ class Builder implements Runnable {
 
     public void createGuild(String guildName) {
         System.out.println("Created a guild " + guildName + " associated to the bot");
+
     }
 
     public void getBotPermission(int permission) {
@@ -94,6 +98,11 @@ class Client extends SlashCommands {
     public void getBotDetails() {
         System.out.println("your account name is " + name);
         System.out.println("your Discord server name is " + discordServer);
+        try {
+            Thread.sleep(200000000);
+        } catch (Exception e) {
+            // TODO: handle exception
+        }
 
     }
 }
